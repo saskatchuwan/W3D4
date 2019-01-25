@@ -14,6 +14,8 @@ dean = User.create!(:username=> 'dean')
 rome = User.create!(:username=> 'rome')
 eric = User.create!(:username=> 'eric')
 
+# users = User.create([ {username: 'bob the drag queen', 2}, {username: 'trinity talyor', 1}])
+
 Poll.delete_all
 
 poll1 = Poll.create!(:user_id=> ivan.id, :title=> 'ivan poll')
